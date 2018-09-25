@@ -2,6 +2,7 @@
 DECLARE
 
   l_zmienna int := 223;
+  v_zmienna varchar2(100);
 
 BEGIN
 
@@ -9,7 +10,6 @@ BEGIN
    (
      SELECT IDDZIALU,NAZWA FROM DZIALY
       WHERE IDDZIALU > l_zmienna
-      ORDER BY NAZWA
    )
    LOOP
      dbms_output.put_line('Nazwa działu ' || l_rekord.nazwa);
