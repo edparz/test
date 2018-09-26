@@ -5,7 +5,7 @@ DECLARE
       SELECT ename, empno, sal FROM emp
          ORDER BY sal DESC;   -- start with highest paid employee
 
-   my_ename VARCHAR2(20);
+   my_ename VARCHAR2(50);
    my_empno NUMBER(10);
    my_sal   NUMBER(7,2);
 
