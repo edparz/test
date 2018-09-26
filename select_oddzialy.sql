@@ -12,6 +12,7 @@ BEGIN
       WHERE IDDZIALU > l_zmienna
    )
    LOOP
+     dbms_output.put_line('Nr działu: ' || l_rekord.IDDZIALU);
      dbms_output.put_line('Nazwa działu: ' || l_rekord.nazwa);
    END LOOP;
 
