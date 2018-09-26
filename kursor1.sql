@@ -1,4 +1,4 @@
--- available online in file 'sample2'
+-- available online in file 'sample2' -- zmiana w master
 DECLARE
 
    CURSOR c1 is
