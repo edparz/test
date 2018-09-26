@@ -1,4 +1,4 @@
--- available online in file 'sample4' master
+-- available online in file 'sample4' 2 na boku
 DECLARE
    CURSOR c1 IS
       SELECT account_id, oper_type, new_value FROM action
