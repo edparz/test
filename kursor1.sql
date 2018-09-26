@@ -1,4 +1,4 @@
--- available online in file 'sample2' -- zmiana w master
+-- available online in file 'sample2' -- zmiana w 2 na boku aaaaaaaaa bbbbbbbbbbbb
 DECLARE
 
    CURSOR c1 is
