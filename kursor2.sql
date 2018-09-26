@@ -1,4 +1,4 @@
--- available online in file 'sample4' 2 na boku
+-- available online in file 'sample4' 2 na boku aaaaaaa
 DECLARE
    CURSOR c1 IS
       SELECT account_id, oper_type, new_value FROM action
