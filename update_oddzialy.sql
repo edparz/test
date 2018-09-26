@@ -1,7 +1,7 @@
 -- nagłówek -----------------------
 declare
 
-     L_id_dzialu DZIALY.IDDZIALU%type := 77;
+     L_id_dzialu DZIALY.IDDZIALU%type := 777;
      L_nazwa_dzialu DZIALY.NAZWA%type := 'DPO';
      L_dzial_row DZIALY%rowtype;
 
