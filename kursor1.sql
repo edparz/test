@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 -- available online in file 'sample2' -- zmiana w 2 na boku aaaaaaaaa
+=======
+-- available online in file 'sample2' -- zmiana w 2 na boku
+>>>>>>> branch_2
 DECLARE
 
    CURSOR c1 is

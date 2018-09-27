@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_a14308
--- available online in file 'sample4' master
-=======
 -- available online in file 'sample4' na boku
->>>>>>> .merge_file_a11544
-=======
--- available online in file 'sample4' 2 na boku aaaaaaa
->>>>>>> branch_2
 DECLARE
    CURSOR c1 IS
       SELECT account_id, oper_type, new_value FROM action
