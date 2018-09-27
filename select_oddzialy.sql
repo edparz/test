@@ -2,7 +2,7 @@
 DECLARE
 
   l_zmienna int := 223;
-  v_zmienna varchar2(100);
+  v_zmienna varchar2(300); -- branch A
 
 BEGIN
 
