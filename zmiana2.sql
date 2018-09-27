@@ -2,7 +2,7 @@
 DECLARE
    CURSOR c1 IS
       SELECT account_id, oper_type, new_value FROM action
-      ORDER BY time_tag
+      ORDER BY time_tag DESC -- master
       FOR UPDATE OF status;
 BEGIN
    FOR acct IN c1 LOOP  -- process each row one at a time
