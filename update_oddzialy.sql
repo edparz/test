@@ -14,7 +14,11 @@ begin
 	update DZIALY D set row = L_dzial_row where D.IDDZIALU = L_id_dzialu;
 	
 	--SQL insert z typem wierszowym
+<<<<<<< HEAD
 	L_dzial_row.IDDZIALU := -9999; -- zmiana w gałęzi master
+=======
+	L_dzial_row.IDDZIALU := -7777; -- zmiana w gałęzi na boku
+>>>>>>> branch_1
 	insert into DZIALY values L_dzial_row;
 	
 end;
