@@ -7,7 +7,7 @@ DECLARE
 
 BEGIN
 
-     FOR l_licznik IN 1..200 LOOP
+     FOR l_licznik IN 1..20 LOOP
 	 
      -- zagnieżdżony SQL
        INSERT INTO DZIALY(NAZWA) values( UPPER( L_PRE || l_licznik) ) RETURN IDDZIALU into L_IDDZIALU;
