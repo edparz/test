@@ -1,7 +1,7 @@
 -- nagłówek -----------------------
 DECLARE
 
-  l_zmienna int := 223;
+  l_zmienna int := 123;
   v_zmienna varchar2(400); -- branch B
 
 BEGIN
